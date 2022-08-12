@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuizAppRedux2</string>
+    <string name="element_text">FillingText</string>
+</resources>
