@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749927561866",
+    "project_id": "dental-9d313",
+    "storage_bucket": "dental-9d313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749927561866:android:3d29978078bfe467a64b73",
+        "android_client_info": {
+          "package_name": "com.example.quizappredux2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749927561866-bbn8f8qe1fs2g37n5soj09r70bbg049n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXvCMzsjzYWiDW0IK6V93Os8OX2kryF0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749927561866-bbn8f8qe1fs2g37n5soj09r70bbg049n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,20 @@
 <resources>
-    <string name="app_name">QuizAppRedux2</string>
+    <string name="app_name">Dental Floss</string>
     <string name="element_text">FillingText</string>
+
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">A Test Prep App for Dental Students.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+    <string name="sign_in_description_text">Enter your email id and password, to login with us.</string>
+
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
 </resources>

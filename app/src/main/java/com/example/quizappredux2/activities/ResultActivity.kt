@@ -1,10 +1,12 @@
-package com.example.quizappredux2
+package com.example.quizappredux2.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.example.quizappredux2.Constants
+import com.example.quizappredux2.R
 
 class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,19 +1,18 @@
-package com.example.quizappredux2
+package com.example.quizappredux2.activities
 
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.ContentInfo
 import android.view.View
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.content.ContextCompat
-import org.w3c.dom.Text
+import com.example.quizappredux2.Constants
+import com.example.quizappredux2.Question
+import com.example.quizappredux2.R
 
 class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -155,7 +154,7 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
 
-            R.id.btnSubmit->{
+            R.id.btnSubmit ->{
                 if(mSelectedOptionPosition == 0){
                     mCurrentPosition++
 
@@ -177,7 +176,7 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
                     if(question!!.correctAnswer != mSelectedOptionPosition){
                         answerView(mSelectedOptionPosition, R.drawable.wrong_ans_border)
                     } else {
-                        mCorrectAnswers++;
+                        mCorrectAnswers++
                     }
 
                     answerView(question.correctAnswer, R.drawable.correct_ans_border)

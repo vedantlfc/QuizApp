@@ -1,4 +1,4 @@
-package com.example.quizappredux2
+package com.example.quizappredux2.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,12 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.quizappredux2.Constants
+import com.example.quizappredux2.R
+import com.example.quizappredux2.firebase.FirestoreClass
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         val btnTopic1 : Button = findViewById(R.id.btnTopic1)
         val etName : EditText = findViewById(R.id.et_name)
 
+        var text = intent.getStringExtra(Constants.USER_NAME)
+        showToast(text.toString())
+        appGreeting.text = "Welcome $text"
 
         btnTopic1.setOnClickListener{
             if(etName.text.isEmpty()){

@@ -7,10 +7,18 @@
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/drawable/correct_ans_border.xml" value="0.2985" />
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/drawable/def_ans_bg.xml" value="0.2985" />
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.2985" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/drawable/shape_button_rounded.xml" value="0.2895" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/drawable/white_shape_button_rounded.xml" value="0.2895" />
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/drawable/wrong_ans_border.xml" value="0.2985" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_base.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_intro.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_quiz_questions.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_result.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_sign_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_sign_up.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vedan/AndroidStudioProjects/QuizAppRedux2/app/src/main/res/layout/dialog_progress.xml" value="0.16837431693989072" />
       </map>
     </option>
   </component>

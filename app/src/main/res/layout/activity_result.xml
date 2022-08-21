@@ -6,7 +6,7 @@
     android:background="@drawable/ic_bg"
     android:gravity="center_horizontal"
     android:padding="20dp"
-    tools:context=".ResultActivity"
+    tools:context=".activities.ResultActivity"
     android:orientation="vertical" >
 
     <TextView
